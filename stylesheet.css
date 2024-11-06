@@ -68,3 +68,26 @@ body {
 .stat {
   padding-right: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  #game {
+    padding: 20px;
+  }
+  #title {
+    font-size: 30px;
+  }  
+}
+
+@media screen and (max-width: 400px) {
+  #game {
+    padding: 10px;
+    max-height: fit-content;
+  }
+  #title {
+    font-size: 18px;
+  }
+  #button3 {
+    padding-top: 15px;
+  }
+    
+}

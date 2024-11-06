@@ -63,7 +63,7 @@ const locations = [
       "Fight king of dragons dragon",
     ],
     "button functions": [goStore, goCave, fightDragon],
-    text: "You are in the capital city. You see a pile of supplies.",
+    text: "You are in the capital city and see lots of rubble. You see the pile of supplies and a path that leads to the ruins of the castle.",
   },
   {
     name: "pile of supplies",
@@ -73,7 +73,7 @@ const locations = [
       "Go to capital city",
     ],
     "button functions": [buyHealth, buyWeapon, goTown],
-    text: "You walk up to the pile of supplies. You see a rat.",
+    text: "You walk up to the pile of supplies. You see a rat. Oh! I may need more health and a better weapon.",
   },
   {
     name: "a path",
@@ -83,13 +83,13 @@ const locations = [
       "Go to capital city",
     ],
     "button functions": [fightSlime, fightBeast, goTown],
-    text: "You walk down a path. You see some monsters.",
+    text: "You walk down a path a ways and then you see some monsters.",
   },
   {
     name: "fight",
     "button text": ["Attack", "Block", "Flee"],
     "button functions": [attack, dodge, goTown],
-    text: "You are fighting a monster.",
+    text: "You are fighting a monster. What do you do?",
   },
   {
     name: "kill monster",
@@ -99,7 +99,7 @@ const locations = [
       "Go to capital city",
     ],
     "button functions": [goTown, goTown, easterEgg],
-    text: 'The monster screams "Arg!" as it dies. You gain experience points and find gold.',
+    text: 'The monster yells "Arg!" as it dies. You gain experience points and find gold coins!',
   },
   {
     name: "lose",
@@ -117,7 +117,7 @@ const locations = [
     name: "easter egg",
     "button text": ["2", "8", "Go to capital city?"],
     "button functions": [pickTwo, pickEight, goTown],
-    text: "You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!",
+    text: "You find a secret game! Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!",
   },
 ];
 
