@@ -81,7 +81,7 @@ body {
 @media screen and (max-width: 400px) {
   #game {
     padding: 10px;
-    max-height: fit-content;
+    max-height: 400px;
   }
   #title {
     font-size: 18px;
