@@ -18,8 +18,12 @@ Welcome to Elder Ruins RPG! A game where you can go on a wild adventure into the
 
 ## Links
 
+[Game Website](https://kzefram.github.io/elder-ruins/)
+
 ## ScreenShots
 
+![Home Screen](homescreenshotElder.png)
+![PathScreen](pathscreenshotElder.png)
 ## TechStack
 
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
